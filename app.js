@@ -170,6 +170,7 @@ class Quiz {
         this.answer.forEach(answer => {
             answer.classList.remove('win', 'loss')
         })
+
     }
 
     pointsHandler = () => {

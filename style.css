@@ -95,7 +95,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 30%;
+    min-height: 30%;
+    max-height: 40%;
     width: 40%;
     text-align: center;
     background-color: white;
@@ -106,9 +107,9 @@
 
 
 
-.answer:hover {
-    background-color: rgb(12, 228, 12);
-}
+/* .answer:hover {
+    background-color: rgb(13, 209, 223);
+} */
 
 .start-game-info {
     width: 70vw;
