@@ -265,6 +265,19 @@
     .start-game-info {
         font-size: 35px;
     }
+
+    .points-counter {
+        justify-content: space-evenly;
+        font-size: 30px;
+    }
+
+    .game-board__question {
+        font-size: 35px;
+    }
+
+    .answer {
+        font-size: 30px;
+    }
 }
 
 
