@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="points-counter hide">
+        <p class="question-number">Question number: <strong>2</strong></p>
+        <p class="correct-answers">Correct answers: <strong>1</strong></p>
+        <p class="incorrect-answers">Incorrect answers: <strong>1</strong></p>
+
+
+    </div>
+    <form class="select-properties" data-form>
+        <select class="select-properties__category" name="category" id="category" data-select-category required>
+            <option value="select_category" selected>Select Category</option>
+            <option value="general_knowledge">General Knowledge</option>
+            <option value="books">Books</option>
+            <option value="video_games">Video Games</option>
+            <option value="science_nature">Science & Nature</option>
+            <option value="sport">Sport</option>
+            <option value="geography">Geography</option>
+            <option value="history">History</option>
+        </select>
+
+        <select class="select-properties__difficulty" name="difficulty" data-select-properties__difficulty required>
+            <option value="select-difficulty" selected>Select Difficulty</option>
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        <button type="submit" class="select-properties__button">Confirm</button>
+    </form>
+
+    <div class="wrapper">
+        <div class="start-game-info">
+            <p>Quiz contains 10 questions!</p>
+            <p>Please select category and difficulty level to start the game. </p>
+
+        </div>
+        <div class="game-board hide">
+            <h1 class="game-board__question" data-question></h1>
+            <section class="game-board__answers answers">
+                <div class="answer answer-1" data-answer-1></div>
+                <div class="answer answer-2" data-answer-2></div>
+                <div class="answer answer-3" data-answer-3></div>
+                <div class="answer answer-4" data-answer-4></div>
+
+            </section>
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
